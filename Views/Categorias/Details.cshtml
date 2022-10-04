@@ -10,28 +10,33 @@
 <div>
     <h4>Categoria</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreCategoria)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NombreCategoria)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Tipo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Tipo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-    </dl>
+    <div class="row">
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label asp-for="NombreCategoria" class="control-label"></label>
+                    <input asp-for="NombreCategoria" class="form-control" readonly />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tipo" class="control-label"></label>
+                    <select asp-for="Tipo" class="form-control" disabled>
+                        <option value="IN">Ingreso</option>
+                        <option value="GA">Gasto</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Estado</label>
+                    <select asp-for="Estado" class="form-control" disabled>
+                        <option value=true>Activo</option>
+                        <option value=false>Inactivo</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+<br />
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-primary" asp-action="Index">Regresar</a> | 
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> 
 </div>
