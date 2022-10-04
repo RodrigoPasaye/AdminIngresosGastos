@@ -56,9 +56,6 @@ namespace AdminIngresosGastos.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CategoriId")
-                        .HasColumnType("int");
-
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
 

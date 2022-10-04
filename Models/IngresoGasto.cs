@@ -7,7 +7,7 @@ namespace AdminIngresosGastos.Models {
         public int Id { get; set; }
 
         [Required]
-        public int CategoriId { get; set; }
+        public int CategoriaId { get; set; }
 
         [ForeignKey("CategoriaId")]
         public Categoria Categoria { get; set; }

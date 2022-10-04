@@ -43,6 +43,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CursoCSharp/AdminIngresosGastos/Views/IngresoGasto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb0dhc3RvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/AdminIngresosGastos/Views/IngresoGasto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb0dhc3RvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/AdminIngresosGastos/Views/IngresoGasto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb0dhc3RvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/AdminIngresosGastos/Views/IngresoGasto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb0dhc3RvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CursoCSharp/AdminIngresosGastos/Views/IngresoGasto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb0dhc3RvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CursoCSharp/AdminIngresosGastos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

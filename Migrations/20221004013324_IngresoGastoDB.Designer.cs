@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AdminIngresosGastos.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20221004010027_IngresoGastoDB")]
+    [Migration("20221004013324_IngresoGastoDB")]
     partial class IngresoGastoDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,9 +57,6 @@ namespace AdminIngresosGastos.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("CategoriId")
-                        .HasColumnType("int");
 
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
